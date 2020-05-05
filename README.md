@@ -9,6 +9,24 @@ This repository is an implementation of "[Parametric Response Mapping of Coregis
 - MATLAB 2017b or newer
 - Registered DCE-CT with PET/CT dataset
 
-## Documentation
+## Files and Documentation
 
-Download the toy dataset 
+The PRM code as well as the synthetic datasets are provided.
+
+```
+src\PRM_PET_DCE_CT.m        - main code
+src\PRM_Test_Dataset_1.mat  - Simple synthetic 2D square with equal compartments
+src\PRM_Test_Dataset_2.mat  - Synthetic 3D volume
+```
+
+## Citation
+
+```
+@article{capaldi2020parametric,
+  title={Parametric Response Mapping of Co-registered Positron Emission Tomography and Dynamic Contrast Enhanced Computed Tomography to Identify Radio-resistant Sub-volumes in Locally Advanced Cervical Cancer},
+  author={Capaldi, Dante PI and Hristov, Dimitre H and Kidd, Elizabeth A},
+  journal={International Journal of Radiation Oncology* Biology* Physics},
+  year={2020},
+  publisher={Elsevier}
+}
+```
