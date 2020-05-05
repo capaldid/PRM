@@ -7,6 +7,7 @@ This repository is an implementation of "[Parametric Response Mapping of Coregis
 ## Requirements
 
 - MATLAB 2017b or newer
+- [imshow3D](https://www.mathworks.com/matlabcentral/fileexchange/41334-imshow3d)
 - Registered DCE-CT with PET/CT dataset
 
 ## Files and Documentation
